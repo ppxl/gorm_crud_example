@@ -1,8 +1,8 @@
 package helpers
 
 import (
-	"github.com/herusdianto/gorm_crud_example/dtos"
-	"github.com/herusdianto/gorm_crud_example/langs"
+	"github.com/ppxl/gorm_crud_example/dtos"
+	"github.com/ppxl/gorm_crud_example/langs"
 	"gopkg.in/go-playground/validator.v8"
 )
 

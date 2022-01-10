@@ -6,9 +6,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
-	"github.com/herusdianto/gorm_crud_example/dtos"
-	"github.com/herusdianto/gorm_crud_example/models"
-	"github.com/herusdianto/gorm_crud_example/repositories"
+	"github.com/ppxl/gorm_crud_example/dtos"
+	"github.com/ppxl/gorm_crud_example/models"
+	"github.com/ppxl/gorm_crud_example/repositories"
 )
 
 func CreateContact(contact *models.Contact, repository repositories.ContactRepository) dtos.Response {

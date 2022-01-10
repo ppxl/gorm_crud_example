@@ -4,7 +4,7 @@
 
 1. Clone this repository to `$GOPATH/src/github.com/herusdianto` directory:
 
-        git clone https://github.com/herusdianto/gorm_crud_example.git
+        git clone https://github.com/ppxl/gorm_crud_example.git
 
 2. Install `glide`:
 
@@ -12,7 +12,7 @@
 
 3. CD to `gorm_crud_example` folder:
 
-        cd $GOPATH/src/github.com/herusdianto/gorm_crud_example
+        cd $GOPATH/src/github.com/ppxl/gorm_crud_example
 
 4. Install dependencies using `glide`:
 

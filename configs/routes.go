@@ -4,11 +4,11 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/herusdianto/gorm_crud_example/dtos"
-	"github.com/herusdianto/gorm_crud_example/helpers"
-	"github.com/herusdianto/gorm_crud_example/models"
-	"github.com/herusdianto/gorm_crud_example/repositories"
-	"github.com/herusdianto/gorm_crud_example/services"
+	"github.com/ppxl/gorm_crud_example/dtos"
+	"github.com/ppxl/gorm_crud_example/helpers"
+	"github.com/ppxl/gorm_crud_example/models"
+	"github.com/ppxl/gorm_crud_example/repositories"
+	"github.com/ppxl/gorm_crud_example/services"
 )
 
 func SetupRoutes(contactRepository *repositories.ContactRepository) *gin.Engine {

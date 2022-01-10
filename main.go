@@ -3,15 +3,15 @@ package main
 import (
 	"log"
 
-	"github.com/herusdianto/gorm_crud_example/configs"
-	"github.com/herusdianto/gorm_crud_example/database"
-	"github.com/herusdianto/gorm_crud_example/models"
-	"github.com/herusdianto/gorm_crud_example/repositories"
+	"github.com/ppxl/gorm_crud_example/configs"
+	"github.com/ppxl/gorm_crud_example/database"
+	"github.com/ppxl/gorm_crud_example/models"
+	"github.com/ppxl/gorm_crud_example/repositories"
 )
 
 func main() {
 	// database configs
-	dbUser, dbPassword, dbName := "root", "root", "gorm_crud_example"
+	dbUser, dbPassword, dbName := "postgres", "postgres", "mydb"
 
 	db, err := database.ConnectToDB(dbUser, dbPassword, dbName)
 

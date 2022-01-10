@@ -5,9 +5,9 @@ import (
 	"math"
 	"strings"
 
-	"github.com/herusdianto/gorm_crud_example/dtos"
-	"github.com/herusdianto/gorm_crud_example/models"
 	"github.com/jinzhu/gorm"
+	"github.com/ppxl/gorm_crud_example/dtos"
+	"github.com/ppxl/gorm_crud_example/models"
 )
 
 type ContactRepository struct {

@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/gin-gonic/gin"
-	"github.com/herusdianto/gorm_crud_example/dtos"
+	"github.com/ppxl/gorm_crud_example/dtos"
 )
 
 func GeneratePaginationRequest(context *gin.Context) *dtos.Pagination {
